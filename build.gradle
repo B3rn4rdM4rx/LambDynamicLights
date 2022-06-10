@@ -78,7 +78,6 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
 	modImplementation include("dev.lambdaurora:spruceui:${project.spruceui_version}")
-	modImplementation include("io.github.queerbric:pridelib:${project.pridelib_version}")
 
 	modImplementation("com.terraformersmc:modmenu:${project.modmenu_version}") {
 		transitive = false

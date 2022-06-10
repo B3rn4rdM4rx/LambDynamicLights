@@ -9,7 +9,7 @@
 [![CurseForge](http://cf.way2muchnoise.eu/title/393442.svg)](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights)
 <!-- modrinth_exclude.end -->
 
-A dynamic lights mod for Fabric.
+A dynamic lights mod for Fabric, but without the obnoxious pride flags.
 
 ## 📖 What's this mod?
 
