@@ -134,6 +134,15 @@
  - Updated Russian translations ([#116](https://github.com/LambdAurora/LambDynamicLights/pull/116), [#121](https://github.com/LambdAurora/LambDynamicLights/pull/121)).
  - Added Ukrainian translations ([#120](https://github.com/LambdAurora/LambDynamicLights/pull/120)).
 
+## 2.3.0
+
+ - Added Traditional Chinese translations ([#142](https://github.com/LambdAurora/LambDynamicLights/pull/142)).
+ - Updated Brazilian Portuguese translations ([#135](https://github.com/LambdAurora/LambDynamicLights/pull/135)).
+ - Updated Simplified Chinese translations ([#133](https://github.com/LambdAurora/LambDynamicLights/pull/133)).
+ - Updated to Minecraft 1.19.4 ([#144](https://github.com/LambdAurora/LambDynamicLights/pull/144)).
+ - Updated [SpruceUI].
+ - Updated [pridelib].
+
 [SpruceUI]: https://github.com/LambdAurora/SpruceUI "SpruceUI page"
 [Sodium]: https://modrinth.com/mod/sodium "Sodium Modrinth page"
 [Canvas Renderer]: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer "Canvas Renderer CurseForge page"
