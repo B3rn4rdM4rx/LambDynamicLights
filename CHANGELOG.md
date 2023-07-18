@@ -143,6 +143,13 @@
  - Updated [SpruceUI].
  - Updated [pridelib].
 
+### 2.3.1
+
+ - Fixed ATLauncher configuration somehow ([#152](https://github.com/LambdAurora/LambDynamicLights/pull/152)).
+ - Updated to Minecraft 1.20 ([#156](https://github.com/LambdAurora/LambDynamicLights/pull/156))
+ - Updated [SpruceUI].
+ - Updated night config.
+
 [SpruceUI]: https://github.com/LambdAurora/SpruceUI "SpruceUI page"
 [Sodium]: https://modrinth.com/mod/sodium "Sodium Modrinth page"
 [Canvas Renderer]: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer "Canvas Renderer CurseForge page"

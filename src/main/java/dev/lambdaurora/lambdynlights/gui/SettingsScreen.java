@@ -1,5 +1,5 @@
 /*
- * Copyright © 2020-2022 LambdAurora <email@lambdaurora.dev>
+ * Copyright © 2020 LambdAurora <email@lambdaurora.dev>
  *
  * This file is part of LambDynamicLights.
  *
@@ -31,7 +31,6 @@ import dev.lambdaurora.spruceui.widget.container.SpruceOptionListWidget;
 import dev.lambdaurora.spruceui.widget.container.tabbed.SpruceTabbedWidget;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
@@ -133,12 +132,12 @@ public class SettingsScreen extends SpruceScreen {
 		innerWidget.getPosition().setRelativeY(43);
 		container.addChild(innerWidget);
 
-		container.setBackground((matrices, widget, vOffset, mouseX, mouseY, delta) -> {
+		container.setBackground((graphics, widget, vOffset, mouseX, mouseY, delta) -> {
 			if (this.client.world != null) {
-				this.fillGradient(matrices, widget.getX(), widget.getY(),
+				graphics.fillGradient(widget.getX(), widget.getY(),
 						widget.getX() + widget.getWidth(), innerWidget.getY(),
 						0xc0101010, 0xd0101010);
-				this.fillGradient(matrices, widget.getX(), innerWidget.getY() + innerWidget.getHeight(),
+				graphics.fillGradient(widget.getX(), innerWidget.getY() + innerWidget.getHeight(),
 						widget.getX() + widget.getWidth(), widget.getY() + widget.getHeight(),
 						0xc0101010, 0xd0101010);
 			} else {
@@ -195,9 +194,5 @@ public class SettingsScreen extends SpruceScreen {
 		list.setBackground(INNER_BACKGROUND);
 		list.addAll(entries);
 		return list;
-	}
-
-	@Override
-	public void renderBackground(MatrixStack matrices) {
 	}
 }

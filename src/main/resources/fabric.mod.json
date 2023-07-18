@@ -29,20 +29,20 @@
     "lambdynlights.lightsource.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.11",
-    "fabric": ">=0.76.0+1.19.4",
-    "minecraft": "1.19.4",
-    "spruceui": ">=4.2.0",
+    "fabricloader": ">=0.14.20",
+    "fabric": ">=0.83.1+1.20.1",
+    "minecraft": "~1.20",
+    "spruceui": ">=5.0.0",
     "java": ">=17"
   },
   "recommends": {
-    "modmenu": ">=5.0.2"
+    "modmenu": ">=7.0.1",
+    "quilt_loader": ">=0.19.1"
   },
   "suggests": {
     "ears": "*",
     "ltr": "*",
-    "sodium": "*",
-    "canvas": "*"
+    "sodium": "*"
   },
   "breaks": {
     "optifabric": "*"
