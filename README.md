@@ -75,7 +75,7 @@ Light emitted from items depend on the light emitted from their respective block
 
 ### Configuration GUI
 
-As of v2.1.0.
+As of v2.3.1.53.
 
 ![Configuration GUI](images/settings_main.png)
 ![Entities Configuration](images/settings_entities.png)

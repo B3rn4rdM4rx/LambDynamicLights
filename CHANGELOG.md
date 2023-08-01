@@ -141,7 +141,6 @@
  - Updated Simplified Chinese translations ([#133](https://github.com/LambdAurora/LambDynamicLights/pull/133)).
  - Updated to Minecraft 1.19.4 ([#144](https://github.com/LambdAurora/LambDynamicLights/pull/144)).
  - Updated [SpruceUI].
- - Updated [pridelib].
 
 ### 2.3.1
 
